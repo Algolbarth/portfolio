@@ -16,7 +16,7 @@ export class Skill {
 
 let javascript = new Skill("Javascript", 4, ["https://developer.mozilla.org/en/docs/Web/JavaScript"], [new stringlang("Ajouter de la logique dans un site web", "Add logic into a website"), new stringlang("Manipulation du DOM", "DOM manipulation"), new stringlang("Programmation asynchrone", "Asynchronous programming"), new stringlang("Optimisation des performances côté client", "Client-side performance optimization"), new stringlang("Manipulation de JSON", "JSON manipulation"), new stringlang("Fetch API", "API Fetch"), new stringlang("Intégration de typescript", "Typescript integration")]);
 
-let svelte = new Skill("Svelte", 4, ["https://svelte.dev"], [new stringlang("Créer une application web", "Make a webapp"), new stringlang("Création de composants réutilisables", "Creating reusable components"), new stringlang("Réactivité déclarative", "Reporting responsiveness"), new stringlang("Stores (écriture, lecture, derived)", "Stores (writable, readable, derived)"), new stringlang("SvelteKit (routage, SSR)", "SvelteKit (routing, SSR)")]);
+let svelte = new Skill("Svelte", 4, ["https://svelte.dev"], [new stringlang("Créer une application web", "Make a webapp"), new stringlang("Création de composants réutilisables", "Creating reusable components"), new stringlang("Réactivité déclarative", "Reporting responsiveness"), new stringlang("Stores (écriture, lecture, dérivation)", "Stores (writable, readable, derived)"), new stringlang("SvelteKit (routage, SSR)", "SvelteKit (routing, SSR)")]);
 
 let react = new Skill("React", 3, ["https://react.dev"], [new stringlang("Créer une application web", "Make a webapp"), new stringlang("Création de composants réutilisables", "Creating reusable components")]);
 
